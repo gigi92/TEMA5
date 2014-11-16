@@ -1,4 +1,4 @@
-package e124b.puica.interfaces;
+package e214b.puica.interfaces;
 
 public interface Phone {
 //functii generale pentru un telefon

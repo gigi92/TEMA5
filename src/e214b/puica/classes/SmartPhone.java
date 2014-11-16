@@ -1,6 +1,6 @@
 package e214b.puica.classes;
 
-import e124b.puica.interfaces.Phone;
+import e214b.puica.interfaces.Phone;
 
 public class SmartPhone implements Phone {
 
