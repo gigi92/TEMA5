@@ -1,9 +1,9 @@
 package e214b.puica.classes;
-import e214b.puica.interfaces.AbstractPhoneFactory;
+
 import e214b.puica.interfaces.Phone;
-public class SmartPhoneFactory implements AbstractPhoneFactory {
+public class SmartPhoneFactory extends AbstractPhoneFactory{
 	@Override
-	public Phone createPhone() {
+	public Phone createPhone() { //creaza SmartPhone
 		SmartPhone phone= new SmartPhone();
 		return phone;
 	}

@@ -2,7 +2,7 @@ package e214b.puica.classes;
 
 import e214b.puica.interfaces.Phone;
 
-public class SimplePhone implements Phone {
+public class SimplePhone implements Phone {//implementarea metodelor unui telefon pentru un simplephone
 
 	@Override
 	public void call() {
